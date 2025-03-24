@@ -1,7 +1,5 @@
-import axios from "axios";
-
-const clientId = "c491fb554ee0439e91970a30f9e3e970";
-const redirectUri = "http://localhost:3000/callback";
+const clientId = import.meta.env.REACT_APP_SPOTIFY_CLIENT_ID;
+const redirectUri = import.meta.env.REACT_APP_SPOTIFY_REDIRECT_URI;
 const scopes = [
   "user-read-private",
   "user-read-email",
