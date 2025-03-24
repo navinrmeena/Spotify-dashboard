@@ -1,5 +1,3 @@
-import axios from "axios";
-
 const clientId = "c491fb554ee0439e91970a30f9e3e970";
 const redirectUri = "http://localhost:3000/callback";
 const scopes = [
